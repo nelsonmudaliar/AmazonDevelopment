@@ -5,8 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Performing the Build option'
-                build quietPeriod: 5, job: 'Amazon_Dev'
-            }
+             }
         }
     
      stage('Deploy') {
